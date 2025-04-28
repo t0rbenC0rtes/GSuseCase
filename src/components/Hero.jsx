@@ -5,12 +5,14 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Heading from "./Heading";
+import Services from "./Services";
 
 const Hero = () => {
 	gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 	const heroRef = useRef(null);
 	const headingRef = useRef(null);
+	const servicesRef = useRef(null);
 
 	useGSAP(
 		() => {
@@ -38,8 +40,13 @@ const Hero = () => {
 			tl.fromTo(
 				headingRef.current,
 				{ y: "100vh" },
-				{ y: 0, opacity: 1, duration: 4, ease: "power3.out" },
+				{ y: 0, duration: 4, ease: "power3.out" },
 				"<"
+			);
+			tl.fromTo(
+				servicesRef.current,
+				{ y: "100vh" },
+				{ y: 0, duration: 4, ease: "power3.out" }
 			);
 		},
 		{ scope: heroRef }
@@ -70,6 +77,7 @@ const Hero = () => {
 				/>
 			</div>
 			<Heading ref={headingRef} />
+			<Services ref={servicesRef} />
 		</div>
 	);
 };
