@@ -1,0 +1,19 @@
+{
+	"servicesTabs": [
+		{
+			"title": "Web Development",
+			"description": "We build responsive and modern web applications tailored to your needs. Our team specializes in front-end and back-end development, ensuring a seamless user experience. We use the latest technologies and frameworks to deliver high-performance websites that are optimized for speed and scalability. Whether you need a simple landing page or a complex web application, we have the expertise to bring your vision to life.",
+			"image": "/img/img1.jpg"
+		},
+		{
+			"title": "Mobile App Development",
+			"description": "Our team designs high-quality apps for both Android and iOS platforms. We focus on creating user-friendly interfaces and robust back-end systems to ensure a smooth experience for your users. Our mobile app development process includes thorough testing and optimization to guarantee performance and reliability. We stay updated with the latest trends and technologies in mobile development to provide you with innovative solutions. Whether you need a native app or a cross-platform solution, we can help you reach your audience on their preferred devices.",
+			"image": "/img/img2.jpg"
+		},
+		{
+			"title": "UI/UX Design",
+			"description": "We craft intuitive and beautiful user interfaces that enhance engagement. Our design process involves understanding user behavior and preferences to create experiences that are not only visually appealing but also functional. We focus on usability and accessibility, ensuring that your application is easy to navigate for all users. Our team uses the latest design tools and methodologies to create prototypes and wireframes that align with your brand identity. From concept to final design, we work closely with you to ensure that the end product meets your expectations.",
+			"image": "/img/img3.jpg"
+		}
+	]
+}
