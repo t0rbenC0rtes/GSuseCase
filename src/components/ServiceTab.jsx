@@ -15,24 +15,24 @@ const ServiceTab = ({ index, title, description, image }) => {
         height: "auto",
         opacity: 1,
         duration: 0.6,
-        ease: "power2.out",
+        ease: "power1.out",
       });
       gsap.to(verticalBarRef.current, {
         rotate: -90,
         duration: 0.3,
-        ease: "power2.out",
+        ease: "power1.out",
       });
     } else {
       gsap.to(contentRef.current, {
         height: 0,
         opacity: 0,
-        duration: 0.6,
-        ease: "power2.inOut",
+        duration: 0.3,
+        ease: "power1.inOut",
       });
       gsap.to(verticalBarRef.current, {
         rotate: 0,
         duration: 0.3,
-        ease: "power2.inOut",
+        ease: "power1.inOut",
       });
     }
   };

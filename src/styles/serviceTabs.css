@@ -21,8 +21,8 @@
   
   .service-icon {
     position: relative;
-    width: 24px;
-    height: 24px;
+    width: 72px;
+    height: 72px;
   }
   
   .horizontal-bar,
@@ -31,17 +31,17 @@
     background-color: black;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
   }
   
   .horizontal-bar {
-    width: 24px;
-    height: 2px;
+    width: 72px;
+    height: 1px;
   }
   
   .vertical-bar {
-    width: 2px;
-    height: 24px;
+    width: 1px;
+    height: 72px;
     transform-origin: center center;
   }
   
