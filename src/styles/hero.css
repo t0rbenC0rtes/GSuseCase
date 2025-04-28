@@ -1,0 +1,28 @@
+.hero-wrp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: var(--color-background);
+}
+
+.svg-top,
+.svg-bottom {
+	display: flex;
+	gap: 5rem;
+	margin-left: 16rem;
+}
+
+.amp-svg,
+.services-svg {
+	opacity: 0;
+}
+
+.logo-heading {
+	font-family: "Suisse", sans-serif;
+	font-weight: 400;
+	font-size: 12rem;
+	line-height: 90px;
+	color: var(--color-gray);
+}

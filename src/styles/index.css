@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color-background: rgba(26, 27, 26, 255);
+	--color-white: rgba(255, 254, 254, 255);
+	--color-gray: rgba(70, 70, 70, 255);
+	--color-dark-gray: rgba(39, 38, 36, 255);
+	--color-orange: rgba(241,80,37,255);
+}
+
+@font-face {
+	font-family: "Montreal";
+	src: url(./fonts/NeueMontreal-Light.otf);
+}
+@font-face {
+	font-family: "Suisse";
+	src: url(./fonts/SuisseIntlTrial-Regular.otf);
+}
+
+body {
+	background-color: var(--color-background);
+	color: var(--color-white);
+    font-family: "Suisse", sans-serif;
+    height: 800vh;
+    display: block;
+	overflow-x: hidden;
+}
