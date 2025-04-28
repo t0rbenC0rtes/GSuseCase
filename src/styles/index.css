@@ -6,6 +6,7 @@
 
 :root {
 	--color-background: rgba(26, 27, 26, 255);
+	--color-black: rgba(9, 9, 9, 255);
 	--color-white: rgba(255, 254, 254, 255);
 	--color-beige: rgba(245, 238, 225, 255);
 	--color-gray: rgba(70, 70, 70, 255);
