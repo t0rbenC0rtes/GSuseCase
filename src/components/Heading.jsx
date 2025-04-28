@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import "../styles/Heading.css";
+import "../styles/heading.css";
 import { IoMdArrowDown } from "react-icons/io";
 
 const Heading = forwardRef((props, ref) => {

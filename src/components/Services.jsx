@@ -1,5 +1,5 @@
 import React, { forwardRef, useState, useEffect } from "react";
-import "../styles/Services.css";
+import "../styles/services.css";
 import ServiceTab from "./ServiceTab";
 
 const Services = forwardRef((props, ref) => {
