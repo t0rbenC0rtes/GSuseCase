@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "../styles/Hero.css";
+import "../styles/hero.css";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
